@@ -1,5 +1,5 @@
 <template>
-  <body id="app">
+  <div id="app">
 
     <Header :links="links" />
 
@@ -9,7 +9,7 @@
 
     <PartialPopUp :files="files" />
 
-  </body>
+  </div>
 </template>
 
 <script>
